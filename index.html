@@ -8,11 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#111111">
   <title>MaxGraph New Site</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap"
-    rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -20,39 +16,434 @@
   <div class="wrapper">
     <section class="home">
       <header class="header">
-  <div class="container header__inner">
-    <a href="javascript:void(0)"> <span class="logo">ic "repair design project"</span></a>
-    <nav class="nav" data-menu>
-      <ul class="nav__list">
-        <li class="nav__item"><a data-scroll class="nav__link active">HOME</a></li>
-        <li class="nav__item"><a data-scroll class="nav__link">PROJECTS</a></li>
-        <li class="nav__item"><a data-scroll class="nav__link">MEASUREMENT</a></li>
-        <li class="nav__item"><a data-scroll class="nav__link">TEAM</a></li>
-        <li class="nav__item hide"><a href="tel:+79287683239" class="nav__link header__phone">+7 (928) 768-32-39</a>
-        </li>
-        <li class="nav__item hide"><button class="nav__link btn">Request a call</button></li>
-      </ul>
-    </nav>
-    <div class="header__request-call">
-      <a href="tel:+79287683239" class="header__phone">+7 (928) 768-32-39</a>
-      <button class="header__request btn">Request a call</button>
+  <div class="container">
+    <div class="header__inner">
+      <a href="javascript:void(0)" class="logo">
+        <svg width="168" height="23" viewBox="0 0 168 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M33.0778 20.0077V3.43477H37.3811L45.1774 15.6119L44.5626 15.7757L44.4508 3.43477H48.335V20.0077H44.1155L36.3472 7.83055L36.8781 7.63943L36.9619 20.0077H33.0778Z"
+            fill="#242953" />
+          <path d="M50.6244 20.0077V3.43477H63.0593V6.71113H54.5086V10.9158H62.4725V13.9191H54.5086V20.0077H50.6244Z"
+            fill="#242953" />
+          <path d="M69.7254 20.0077V6.68382H64.4161V3.43477H78.9468V6.68382H73.6376V20.0077H69.7254Z" fill="#242953" />
+          <path
+            d="M86.0452 20.0077V3.43477H95.0431C96.7197 3.43477 98.0051 3.75331 98.8993 4.39038C99.8121 5.00924 100.269 6.07406 100.269 7.58482C100.269 8.67694 99.9984 9.53243 99.4582 10.1513C98.9365 10.7702 98.1821 11.2161 97.1947 11.4891L98.0051 9.98748V12.5267L97.1109 11.0796C97.8933 11.2252 98.5546 11.4709 99.0949 11.8168C99.6351 12.1444 100.045 12.5904 100.324 13.1546C100.622 13.7007 100.772 14.3742 100.772 15.175C100.772 16.8132 100.259 18.0327 99.2346 18.8336C98.2286 19.6163 96.7197 20.0077 94.7077 20.0077H86.0452ZM94.5401 17.0043C95.3411 17.0043 95.9186 16.8041 96.2726 16.4037C96.6452 16.0032 96.8315 15.4572 96.8315 14.7655C96.8315 14.1284 96.6358 13.6552 96.2446 13.3457C95.8721 13.0363 95.3039 12.8816 94.5401 12.8816H89.9294V17.0043H94.5401ZM94.4562 10.2605C95.1641 10.2605 95.6764 10.0967 95.9931 9.76906C96.3285 9.42322 96.4961 8.95907 96.4961 8.37661C96.4961 7.75774 96.3285 7.28449 95.9931 6.95685C95.6578 6.61102 95.1455 6.4381 94.4562 6.4381H89.9294V10.2605H94.4562Z"
+            fill="#242953" />
+          <path
+            d="M111.208 11.7622C111.208 11.0705 111.031 10.5517 110.677 10.2059C110.342 9.84186 109.737 9.65985 108.861 9.65985C108.172 9.65985 107.641 9.78726 107.268 10.0421C106.914 10.2969 106.691 10.6519 106.598 11.1069H102.965C103.151 9.70535 103.775 8.64964 104.837 7.93976C105.899 7.22988 107.268 6.87494 108.945 6.87494C110.715 6.87494 112.158 7.26629 113.276 8.04897C114.412 8.81345 114.981 10.1058 114.981 11.926V20.0077H111.208V11.7622ZM106.933 20.3899C105.61 20.3899 104.53 20.0714 103.691 19.4343C102.872 18.779 102.462 17.787 102.462 16.4583C102.462 15.4208 102.751 14.5562 103.328 13.8645C103.924 13.1728 104.986 12.7087 106.514 12.472C108.06 12.2354 110.184 12.3355 112.885 12.7724L112.55 14.7382C111.059 14.5926 109.867 14.538 108.973 14.5744C108.079 14.6108 107.408 14.7655 106.961 15.0385C106.514 15.2934 106.29 15.712 106.29 16.2945C106.29 16.8041 106.449 17.1773 106.765 17.4139C107.101 17.6505 107.576 17.7688 108.19 17.7688C109.01 17.7688 109.699 17.5959 110.258 17.2501C110.836 16.9042 111.273 16.4492 111.572 15.8849L111.488 18.2876C111.041 18.87 110.463 19.3706 109.755 19.7892C109.066 20.1897 108.125 20.3899 106.933 20.3899Z"
+            fill="#242953" />
+          <path
+            d="M116.877 20.0077V7.25719H120.649V10.2059L120.454 9.38682C120.565 9.07738 120.798 8.73154 121.152 8.3493C121.525 7.94886 122.009 7.60302 122.605 7.31179C123.201 7.02056 123.881 6.87494 124.645 6.87494C126.061 6.87494 127.142 7.31179 127.887 8.18549C128.632 9.05918 129.004 10.2605 129.004 11.7895V20.0077H125.232V12.6905C125.232 11.8532 125.036 11.2252 124.645 10.8066C124.273 10.3697 123.714 10.1513 122.969 10.1513C122.466 10.1513 122.046 10.2605 121.711 10.4789C121.376 10.6792 121.115 10.9704 120.929 11.3526C120.742 11.7349 120.649 12.1808 120.649 12.6905V20.0077H116.877Z"
+            fill="#242953" />
+          <path
+            d="M130.903 20.0077V3.40747H134.676V13.2365L133.893 13.0727L139.091 7.25719H144.149L134.284 17.1409L134.676 15.9395V20.0077H130.903ZM140.013 20.0077L135.961 14.0556L138.476 11.6803L144.512 20.0077H140.013Z"
+            fill="#242953" />
+          <path
+            d="M151.088 20.4445C149.877 20.4445 148.759 20.1988 147.735 19.7073C146.71 19.2159 145.881 18.4605 145.248 17.4412C144.614 16.4219 144.297 15.1386 144.297 13.5915C144.297 12.0625 144.614 10.7975 145.248 9.79636C145.881 8.77705 146.71 8.03077 147.735 7.55752C148.759 7.06607 149.868 6.82034 151.06 6.82034C152.308 6.82034 153.444 7.09337 154.469 7.63943C155.512 8.16728 156.332 9.02278 156.928 10.2059C157.524 11.3708 157.757 12.8725 157.627 14.7109H147.371L147.232 12.5267H155L153.938 13.4277C153.901 12.6814 153.77 12.0443 153.547 11.5164C153.342 10.9704 153.025 10.5608 152.597 10.2878C152.168 9.99658 151.647 9.85097 151.032 9.85097C150.361 9.85097 149.802 10.0148 149.355 10.3424C148.927 10.6701 148.61 11.1251 148.405 11.7076C148.2 12.2718 148.098 12.9089 148.098 13.6188C148.098 14.3286 148.2 14.9657 148.405 15.53C148.61 16.0942 148.936 16.5493 149.383 16.8951C149.83 17.241 150.408 17.4139 151.116 17.4139C151.786 17.4139 152.327 17.2683 152.736 16.977C153.146 16.6858 153.444 16.3036 153.631 15.8303H157.431C157.077 17.3411 156.332 18.4878 155.196 19.2705C154.059 20.0532 152.69 20.4445 151.088 20.4445Z"
+            fill="#242953" />
+          <path
+            d="M159.365 20.0077V7.25719H163.11V10.5881L162.886 9.96018C163.24 9.08648 163.65 8.40391 164.116 7.91246C164.6 7.421 165.159 7.10247 165.792 6.95685C166.426 6.81124 167.162 6.82944 168 7.01146V10.8612H167.888C167.087 10.5335 166.314 10.4516 165.569 10.6154C164.842 10.7611 164.256 11.1342 163.808 11.7349C163.361 12.3355 163.138 13.1182 163.138 14.0829V20.0077H159.365Z"
+            fill="#242953" />
+          <rect y="9.37036" width="23.5026" height="4.25926" fill="#0066FF" />
+          <rect width="11.8709" height="4.30605"
+            transform="matrix(-0.714707 0.699424 -0.714707 -0.699424 22.0073 4.71558)" fill="#00F0FF" />
+          <rect width="11.8709" height="4.30605"
+            transform="matrix(-0.714707 0.699424 -0.714707 -0.699424 13.3027 13.2339)" fill="#00F0FF" />
+          <path d="M13.9275 0L13.9275 23L9.57516 23L9.57516 -1.86178e-07L13.9275 0Z" fill="#0066FF" />
+        </svg>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a data-scroll class="nav__link active">Home</a></li>
+          <li class="nav__item"><a data-scroll class="nav__link">About Us</a></li>
+          <li class="nav__item"><a data-scroll class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a data-scroll class="nav__link">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+
+</header>
+      <section class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__item">
+        <h1 class="hero__title">Simple and safe earnings at NFT. Make money with us.</h1>
+        <p class="hero__text">Invest in the world of NFT and get passive profit in a convenient telegram bot</p>
+        <div class="hero__btns">
+          <button class="btn btn--purple hero__btn">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_17_10)">
+                <path
+                  d="M15 0.46875C6.71571 0.46875 0 6.97459 0 15C0 23.0254 6.71571 29.5312 15 29.5312C23.2843 29.5312 30 23.0254 30 15C30 6.97459 23.2843 0.46875 15 0.46875ZM21.9527 10.3512C21.727 12.6489 20.7503 18.2249 20.2531 20.7984C20.0429 21.8873 19.6288 22.2525 19.2281 22.2882C18.3571 22.3659 17.6955 21.7305 16.8518 21.1948C15.5317 20.3564 14.7858 19.8345 13.5043 19.0164C12.0233 18.071 12.9834 17.5516 13.8274 16.702C14.0483 16.4797 17.8863 13.0979 17.9606 12.7911C17.9698 12.7527 17.9787 12.6094 17.8908 12.5342C17.8028 12.459 17.6736 12.4845 17.5802 12.5049C17.4478 12.534 15.3388 13.8845 11.2531 16.5562C10.6545 16.9544 10.1123 17.1484 9.62643 17.1383C9.09085 17.1271 8.06063 16.8449 7.29472 16.6037C6.35534 16.3079 5.60873 16.1515 5.67375 15.6492C5.70762 15.3874 6.0796 15.1199 6.78968 14.8464C11.1625 13.0008 14.0784 11.784 15.5373 11.196C19.703 9.5175 20.5686 9.22594 21.1328 9.21621C21.2569 9.21422 21.5343 9.24398 21.714 9.38525C21.8335 9.48589 21.9097 9.62632 21.9275 9.77877C21.958 9.96806 21.9664 10.1601 21.9527 10.3512Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_17_10">
+                  <rect width="30" height="30" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            Join Telegram Bot
+          </button>
+          <button class="btn hero__btn">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_17_10)">
+                <path
+                  d="M15 0.46875C6.71571 0.46875 0 6.97459 0 15C0 23.0254 6.71571 29.5312 15 29.5312C23.2843 29.5312 30 23.0254 30 15C30 6.97459 23.2843 0.46875 15 0.46875ZM21.9527 10.3512C21.727 12.6489 20.7503 18.2249 20.2531 20.7984C20.0429 21.8873 19.6288 22.2525 19.2281 22.2882C18.3571 22.3659 17.6955 21.7305 16.8518 21.1948C15.5317 20.3564 14.7858 19.8345 13.5043 19.0164C12.0233 18.071 12.9834 17.5516 13.8274 16.702C14.0483 16.4797 17.8863 13.0979 17.9606 12.7911C17.9698 12.7527 17.9787 12.6094 17.8908 12.5342C17.8028 12.459 17.6736 12.4845 17.5802 12.5049C17.4478 12.534 15.3388 13.8845 11.2531 16.5562C10.6545 16.9544 10.1123 17.1484 9.62643 17.1383C9.09085 17.1271 8.06063 16.8449 7.29472 16.6037C6.35534 16.3079 5.60873 16.1515 5.67375 15.6492C5.70762 15.3874 6.0796 15.1199 6.78968 14.8464C11.1625 13.0008 14.0784 11.784 15.5373 11.196C19.703 9.5175 20.5686 9.22594 21.1328 9.21621C21.2569 9.21422 21.5343 9.24398 21.714 9.38525C21.8335 9.48589 21.9097 9.62632 21.9275 9.77877C21.958 9.96806 21.9664 10.1601 21.9527 10.3512Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_17_10">
+                  <rect width="30" height="30" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            Telegram Group
+          </button>
+        </div>
+      </div>
+      <div class="hero__item">
+        <div class="calc">
+          <form action="#" class="calc__form">
+            <h2 class="calc__title">Calculate your Profits</h2>
+            <div class="calc__body">
+              <label class="calc__body-item ">
+                <span>Select Plan</span>
+                <select name="select" class="calc__select">
+                  <option class="calc-secets__item" value="1.5">Start(150%)</option>
+                  <option class="calc-secets__item" value="1.7">Standart(170%)</option>
+                  <option class="calc-secets__item" value="2.0">Advanced(200%)</option>
+                  <option class="calc-secets__item" value="2.5">Pro Plan(250%)
+                  </option>
+                </select>
+              </label>
+              <label class="calc__body-item calc__input">
+                <input autocomplete="off" type="number" name="amount">
+                <span>Amount</span>
+              </label>
+              <label class="calc__body-item">
+                <div class="calc__res">0$</div>
+                <span>Total Return</span>
+              </label>
+
+              <button class="calc__btn btn">Start Earning Right Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </section>
+    <main class="main">
+      <section class="why">
+  <div class="container">
+    <div class="why__inner">
+      <div class="why__bg-telegram"><svg width="182" height="177" viewBox="0 0 182 177" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_7_45)">
+            <path
+              d="M91 177C141.258 177 182 137.377 182 88.5C182 39.6228 141.258 0 91 0C40.7421 0 0 39.6228 0 88.5C0 137.377 40.7421 177 91 177Z"
+              fill="url(#paint0_linear_7_45)" />
+            <path
+              d="M135.291 50.922L119.046 130.607C119.046 130.607 116.771 136.138 110.515 133.476L73.0132 105.509L59.3632 99.113L36.4 91.6113C36.4 91.6113 32.8808 90.4013 32.5254 87.7394C32.1699 85.0775 36.5066 83.6601 36.5066 83.6601L127.791 48.8478C127.791 48.8132 135.291 45.5982 135.291 50.922Z"
+              fill="white" />
+            <path
+              d="M70.0984 129.708C70.0984 129.708 68.9965 129.604 67.6457 125.421C66.2949 121.238 59.3633 99.113 59.3633 99.113L114.496 65.0613C114.496 65.0613 117.696 63.1945 117.554 65.0613C117.554 65.0613 118.122 65.407 116.416 66.9281C114.71 68.4837 73.1199 104.852 73.1199 104.852"
+              fill="#D2E4F0" />
+            <path d="M87.3741 116.225L72.5511 129.397C72.5511 129.397 71.3781 130.261 70.1339 129.708L72.9777 105.267"
+              fill="#B5CFE4" />
+          </g>
+          <defs>
+            <linearGradient id="paint0_linear_7_45" x1="91" y1="0" x2="91" y2="176.354" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#41BCE7" />
+              <stop offset="1" stop-color="#22A6DC" />
+            </linearGradient>
+            <clipPath id="clip0_7_45">
+              <rect width="182" height="177" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="why__col">
+        <h3 class="why__title">Why customers choose us and come back to us.</h3>
+        <div class="why__content">
+          <div class="why__item">
+            <h4 class="why__item-title">Professionals of their work</h4>
+            <div class="why__item-text">Our team consists of specialists with years of
+              experience in the world of cryptocurrencies</div>
+          </div>
+          <div class="why__item">
+            <h4 class="why__item-title">Maximum profit at low risks</h4>
+            <div class="why__item-text">Careful selection of profitable NFT projects with our automatic bot</div>
+          </div>
+          <div class="why__item">
+            <h4 class="why__item-title">Without fee</h4>
+            <div class="why__item-text">Absence of any commissions for deposit/withdrawal of funds platforms, management
+              fees and others.</div>
+          </div>
+          <div class="why__item">
+            <h4 class="why__item-title">100% Security</h4>
+            <div class="why__item-text">We use world-class security with a secure and encrypted connection. Your data
+              and platforms are fully protected.</div>
+          </div>
+        </div>
+      </div>
+      <div class="why__col why__col-img">
+        <img src="./img/why-bg.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="about">
+  <div class="container">
+    <div class="about__inner">
+      <div class="about__item about__item--about">
+        <div class="about__item-title">About Us</div>
+        <div class="about__item-text">️NFT Banker has developed high performance servers designed for the full and high
+          performance of our NFT monitoring bot that our traders use.
+          NFT Banker allows you to join our NFT investment and trading company and earn guaranteed daily profits from
+          trading income and of course through our servers, so all you have to invest and watch how your earnings grow
+          thanks to our bot and professional traders.</div>
+        <div class="about__item-ico">
+          <img src="./img/about1.svg" alt="">
+        </div>
+      </div>
+      <div class="about__item about__item--trade">
+        <div class="about__item-title">Trade Bot</div>
+        <div class="about__item-text">💸 Our automated bot monitors trends in current NFTs and participates in Pre-sales
+          from multiple accounts and then sells for a higher price</div>
+        <div class="about__item-ico">
+          <img src="./img/about2.svg" alt="">
+        </div>
+      </div>
+      <div class="about__item about__item--aff">
+        <div class="about__item-title">Affiliate </div>
+        <div class="about__item-text">Invite users via your referral link and get 5% profit from each investment they
+          make.
+          The referral link can be found in the Telegram Bot</div>
+        <div class="about__item-ico">
+          <img src="./img/about3.svg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+      <section class="plans">
+  <div class="container">
+    <h4 class="plans__title">Investment Plans</h4>
+    <div class="plans__inner">
+      <div class="plans__item">
+        <div class="plans__label">For Begginers</div>
+        <div class="plans__name">Start Plan</div>
+        <ul class="plans__list">
+          <div class="plans__li">150% after 15 days</div>
+          <div class="plans__li">Minimum 10$</div>
+          <div class="plans__li">Traders trade NFTs that have a low price</div>
+        </ul>
+        <button class="plans__btn btn">Start Earning Right Now</button>
+      </div>
+      <div class="plans__item">
+        <div class="plans__label">For Begginers</div>
+        <div class="plans__name">Standart Plan</div>
+        <ul class="plans__list">
+          <div class="plans__li">150% after 15 days</div>
+          <div class="plans__li">Minimum 10$</div>
+          <div class="plans__li">Traders trade NFTs that have a low price</div>
+        </ul>
+        <button class="plans__btn btn">Start Earning Right Now</button>
+      </div>
+      <div class="plans__item">
+        <div class="plans__label">For Expert</div>
+        <div class="plans__name">Advanced Plan</div>
+        <ul class="plans__list">
+          <div class="plans__li">150% after 15 days</div>
+          <div class="plans__li">Minimum 10$</div>
+          <div class="plans__li">Traders trade NFTs that have a low price</div>
+        </ul>
+        <button class="plans__btn btn">Start Earning Right Now</button>
+      </div>
+      <div class="plans__item">
+        <div class="plans__label">For Begginers</div>
+        <div class="plans__name">For Pro</div>
+        <ul class="plans__list">
+          <div class="plans__li">150% after 15 days</div>
+          <div class="plans__li">Minimum 10$</div>
+          <div class="plans__li">Traders trade NFTs that have a low price</div>
+        </ul>
+        <button class="plans__btn btn">Start Earning Right Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="ask">
+  <div class="container">
+    <div class="ask__title">Frequently Asked Questions</div>
+    <div class="ask__acc">
+      <div class="ask__acc-item">
+        <div class="ask__acc-title">
+          <span>How does it work?</span>
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L9.5 10M18 18.5L9.5 10M9.5 10L1 18.5L18 1.5" stroke="#9AADBC" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </div>
+        <div class="ask__acc-content">
+          <span>We have dedicated and dedicated servers for our trading bot, which is used by professional traders in
+            the nft industry.</span>
+        </div>
+      </div>
+      <div class="ask__acc-item">
+        <div class="ask__acc-title">
+          What do I pay for?
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L9.5 10M18 18.5L9.5 10M9.5 10L1 18.5L18 1.5" stroke="#9AADBC" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </div>
+        <div class="ask__acc-content">
+          <span>We have dedicated and dedicated servers for our trading bot, which is used by professional traders in
+            the nft industry.</span>
+        </div>
+      </div>
+      <div class="ask__acc-item">
+        <div class="ask__acc-title">
+          How many trading plans can I buy per day and do I have to wait until my previous plan is done?
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L9.5 10M18 18.5L9.5 10M9.5 10L1 18.5L18 1.5" stroke="#9AADBC" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </div>
+        <div class="ask__acc-content">
+          <span>We have dedicated and dedicated servers for our trading bot, which is used by professional traders in
+            the nft industry.</span>
+        </div>
+      </div>
+      <div class="ask__acc-item">
+        <div class="ask__acc-title">
+          Where can I see the latest payouts?
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L9.5 10M18 18.5L9.5 10M9.5 10L1 18.5L18 1.5" stroke="#9AADBC" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </div>
+        <div class="ask__acc-content">
+          <span>We have dedicated and dedicated servers for our trading bot, which is used by professional traders in
+            the nft industry.</span>
+        </div>
+      </div>
+      <div class="ask__acc-item">
+        <div class="ask__acc-title">
+          Why in the Telegram?
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L9.5 10M18 18.5L9.5 10M9.5 10L1 18.5L18 1.5" stroke="#9AADBC" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </div>
+        <div class="ask__acc-content">
+          <span>We have dedicated and dedicated servers for our trading bot, which is used by professional traders in
+            the nft industry.</span>
+        </div>
+      </div>
+      <div class="ask__acc-item">
+        <div class="ask__acc-title">
+          Where can I find more answers to the questions?
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L9.5 10M18 18.5L9.5 10M9.5 10L1 18.5L18 1.5" stroke="#9AADBC" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+        </div>
+        <div class="ask__acc-content">
+          <span>We have dedicated and dedicated servers for our trading bot, which is used by professional traders in
+            the nft industry.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="help">
+  <div class="container">
+    <div class="help__inner">
+      <div class="help__line">
+      </div>
+      <div class="help__item help__left">
+        <h5 class="help__left-title">Need Help? Say Hello</h5>
+        <div class="help__left-descr">The fastest possible feedback 24/7 with full immersion in the request of each
+          client.</div>
+        <div class="help__item-tg">
+          <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_7_18)">
+              <path
+                d="M15 0C6.71571 0 0 6.71571 0 15C0 23.2843 6.71571 30 15 30C23.2843 30 30 23.2843 30 15C30 6.71571 23.2843 0 15 0ZM21.9527 10.2012C21.727 12.5731 20.7503 18.3289 20.2531 20.9855C20.0429 22.1095 19.6288 22.4865 19.2281 22.5233C18.3571 22.6035 17.6955 21.9477 16.8518 21.3946C15.5317 20.5292 14.7858 19.9905 13.5043 19.146C12.0233 18.1701 12.9834 17.6339 13.8274 16.7569C14.0483 16.5275 17.8863 13.0365 17.9606 12.7198C17.9698 12.6802 17.9787 12.5323 17.8908 12.4547C17.8028 12.377 17.6736 12.4033 17.5802 12.4244C17.4478 12.4545 15.3388 13.8485 11.2531 16.6064C10.6545 17.0174 10.1123 17.2177 9.62643 17.2072C9.09085 17.1957 8.06063 16.9045 7.29472 16.6554C6.35534 16.3501 5.60873 16.1887 5.67375 15.6701C5.70762 15.3999 6.0796 15.1237 6.78968 14.8415C11.1625 12.9363 14.0784 11.6803 15.5373 11.0733C19.703 9.34064 20.5686 9.03968 21.1328 9.02964C21.2569 9.02758 21.5343 9.05831 21.714 9.20413C21.8335 9.30801 21.9097 9.45298 21.9275 9.61034C21.958 9.80574 21.9664 10.0039 21.9527 10.2012Z"
+                fill="#3589D6" />
+            </g>
+            <defs>
+              <clipPath id="clip0_7_18">
+                <rect width="30" height="30" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+          NFTBanker_bot
+        </div>
+      </div>
+      <div class="help__item help__right">
+        <h5 class="help__right-title">Telegram Support</h5>
+        <div class="help__item-tg">
+          <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_7_18)">
+              <path
+                d="M15 0C6.71571 0 0 6.71571 0 15C0 23.2843 6.71571 30 15 30C23.2843 30 30 23.2843 30 15C30 6.71571 23.2843 0 15 0ZM21.9527 10.2012C21.727 12.5731 20.7503 18.3289 20.2531 20.9855C20.0429 22.1095 19.6288 22.4865 19.2281 22.5233C18.3571 22.6035 17.6955 21.9477 16.8518 21.3946C15.5317 20.5292 14.7858 19.9905 13.5043 19.146C12.0233 18.1701 12.9834 17.6339 13.8274 16.7569C14.0483 16.5275 17.8863 13.0365 17.9606 12.7198C17.9698 12.6802 17.9787 12.5323 17.8908 12.4547C17.8028 12.377 17.6736 12.4033 17.5802 12.4244C17.4478 12.4545 15.3388 13.8485 11.2531 16.6064C10.6545 17.0174 10.1123 17.2177 9.62643 17.2072C9.09085 17.1957 8.06063 16.9045 7.29472 16.6554C6.35534 16.3501 5.60873 16.1887 5.67375 15.6701C5.70762 15.3999 6.0796 15.1237 6.78968 14.8415C11.1625 12.9363 14.0784 11.6803 15.5373 11.0733C19.703 9.34064 20.5686 9.03968 21.1328 9.02964C21.2569 9.02758 21.5343 9.05831 21.714 9.20413C21.8335 9.30801 21.9097 9.45298 21.9275 9.61034C21.958 9.80574 21.9664 10.0039 21.9527 10.2012Z"
+                fill="#3589D6" />
+            </g>
+            <defs>
+              <clipPath id="clip0_7_18">
+                <rect width="30" height="30" fill="white" transform="translate(0 0.5)" />
+              </clipPath>
+            </defs>
+          </svg>
+          NFTBanker_bot
+        </div>
+        <button class="help__right-btn btn"> Start Chat</button>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__block">
+        <div class="footer__title">We are trusted</div>
+        <div class="footer__box">
+          <div class="footer__box-item"><img src="./img/footer1.png" alt=""></div>
+          <div class="footer__box-item"><img src="./img/footer2.png" alt=""></div>
+          <div class="footer__box-item"><img src="./img/footer3.png" alt=""></div>
+          <div class="footer__box-item"><img src="./img/footer4.png" alt=""></div>
+          <div class="footer__box-item"><img src="./img/footer5.png" alt=""></div>
+          <div class="footer__box-item"><img src="./img/footer6.png" alt=""></div>
+        </div>
+        <div class="footer__copy">
+          <span>© 2022 NFT Banker. All Rights Reserved</span>
+          <a href="#">Terms of Services</a>
+        </div>
+      </div>
     </div>
 
-    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
-      <span class="burger__line"></span>
-    </button>
   </div>
-</header>
-
-    </section>
-
-
-    <main class="main">
-
-    </main>
-    @inclide('partials/footer')
+</footer>
   </div>
-
   <script src="js/main.js"></script>
 
 
